@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulateur de Prêt</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulateur de Prêt</h1>
+        <div class="input-group">
+            <label for="montant">Montant  :</label>
+            <input type="number" id="montant">
+        </div>
+
+        <div class="input-group">
+            <label for="taux">Taux  % :</label>
+            <input type="number" id="taux">
+        </div>
+
+        <div class="input-group">
+            <label for="duree">année :</label>
+            <input type="number" id="duree">
+        </div>
+
+        <button onclick="calculer()">Calculer</button>
+
+        <div id="resultat" class="result"></div>
+    </div>
+
+    <script src="p.js"></script>
+</body>
+</html>
